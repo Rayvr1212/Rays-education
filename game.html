@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning.com</title>
+</head>
+<body>
+
+  <h1>Rays education</h1>
+  <p>This is the learning page.</p>
+
+<nav>
+  <a href="#" onclick="checkPassword()">Home</a>
+    <script>
+        function checkPassword() {
+  let password = prompt("Enter the password:");
+
+  if (password === "Rayiscool") {
+    window.location.href = "index.html";
+  } else {
+    alert("Incorrect password");
+  }
+}
+    </script>
+  <a href="game.html">Education Plans</a> |
+  <a href="about.html">About</a>
+</nav>
+<hr>
+
+<style> 
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #00ffcc;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+</style>
+</body>
+</html>
+
